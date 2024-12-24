@@ -1,0 +1,487 @@
+.wrapper {
+    width: 1440px;
+    /* height: 2443px;  */
+    /* background-color: #FAFAD2;*/
+    /*    background-color: #fff8dd;*/
+    background-color: rgb(247,245, 233);
+}
+  
+
+    .header {
+        
+        position: relative;
+    
+    }
+
+.logo {
+    /* SHOPPE */
+    position: absolute;
+    left: 98px;
+    font-family: 'Allerta Stencil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 36px;
+    /* Светлый */
+    color: rgba(161, 138, 104, 1);
+}
+
+    .navigation_lists {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header_navigation {
+        position: absolute;
+        left: 298px;
+        width: 404px;
+    }
+
+    .list {
+        list-style: none;
+        /* padding-right: 30px; */
+    }
+
+.item {
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    /*color: #FCFCFC;*/
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+.container {
+    /* position: absolute; */
+    top: 47px;
+    width: 1366px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    /*  display: block;
+        position: absolute;
+        right: 135px;  */
+    width: 100px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+/*
+
+    .icons {
+       
+        top: -18px;
+        display: inline-block;
+        position: relative;
+    }
+*/
+.search {
+    /*  position:absolute;*/
+
+    width: 19px;
+    height: 19px;
+    top: 12px;
+}
+.basket {
+    /*  position:absolute;*/
+    width: 21px;
+    height: 21px;
+}
+.person {
+    /*    position: absolute;*/
+    width: 20px;
+    height: 20px;
+    top: 11px;
+}
+
+
+.group1 {
+    /* Group 1 */
+    position: relative;
+    width: 1285px;
+    height: 509px;
+    left: 98px;
+    top: 140px;
+    width: 1248px;
+    height: 646px;
+    background-image: url('images/Img 01.png');
+}
+
+.heading1 {
+    /* Gold big hoops*/
+
+    width: 352px;
+    height: 43px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 115%;
+    /* or 60px */
+    top: 348px;
+    /* position: absolute; */
+    left: 135px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.text1 {
+    /* $ 68,00*/
+    white-space: pre;
+    width: 395px;
+    height: 35px;
+  /*  margin-top: 42px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+    /* or 27px */
+    display: flex;
+    align-items: center;
+    /* position:absolute; */
+    top: 407px;
+    
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.group2 {
+    row-gap: 125px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    column-gap: 15px;
+
+    /* Group 3 */
+    /* position: relative; */
+    /* width: 1248px; */
+    /*  height: 1822px; */
+    left: 98px;
+    top: 293px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.heading2 {
+    /* Shop The Latest */
+    position: absolute; 
+    width: 252px;
+    height: 43px;
+    left: 96px;
+    top: 832px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 115%;
+    /* or 60px */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 1);
+}
+
+.card1 {
+    /* position: absolute;*/
+    width: 370px;
+    height: 326px;
+    left: 98px;
+    top: 127px;
+    /* background: url(Lira_Earrings.png);*/
+}
+
+.title1 {
+    /*  position: absolute; */
+    top: 335px;
+    width: 195px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 74px;
+    height: 26px;
+    color: rgba(161, 138, 104, 1);
+    font-size: 20px;
+    font-weight: 500;
+    /*  position: absolute;  */
+    top: 357px;
+}
+
+
+.card2 {
+    /* Rectangle 3 */
+    /*  position: absolute;  */
+    width: 370px;
+    height: 326px;
+    left: 499px;
+    top: 127px;
+    /*  background: url(Hal_Earrings.png);*/
+}
+
+.card3 {
+    /* position: absolute; */
+    width: 370px;
+    height: 326px;
+    left: 898px;
+    top: 127px;
+    border-left: 29px;
+    /*   background: url(Kaede_Hair.png);  */
+}
+.card4 {
+    /*  position: absolute;  */
+    width: 380px;
+    height: 380px;
+    left: 499px;
+    top: 127px;
+    /*  background: url(Hair_Pin.png);*/
+}
+.card5 {
+    width: 380px;
+    height: 380px;
+    left: 499px;
+    top: 127px;
+    /*   background: url(Plaine_Necklace.png);*/
+}
+.card6 {
+    width: 380px;
+    height: 380px;
+    left: 499px;
+    top: 127px;
+    /* background: url(Yuki_Hair.png)*/
+}
+
+
+/*blog*/
+.group_blog {
+    position: relative;
+    width: 1248px;
+    height: 1647px;
+    top: 219px;
+    left: 96px;
+  
+}
+
+.heading_blog {
+    width: 670px;
+    height: 43px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 33px;
+    display:flex;
+    align-items:center;
+}
+/*by ANNY JOHNSON - October 8,2020*/
+.subtitle_blog {
+    color: rgba(127, 127, 127, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: DM Sans;
+    width: 280px;
+    height: 27px;
+    top: 278px;
+    left: 580px;
+}
+.trends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1248px;
+    height: 219px;
+}
+.text_blog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 208px;
+    width: 670px;
+    height: 172px;
+    top: 1054px;
+    left: 385px;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Img1_blog {
+    width: 1248px;
+    height: 646px;
+    top: 344px;
+    left: 96px;
+}
+
+.Img2_blog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 208px;
+
+    width: 670px;
+    height: 300px;
+    top: 1284px;
+    left: 385px;
+}
+
+.subtitle_blog2 {
+    /*Top trends*/
+    width: 135px;
+    height: 34px;
+    top: 1632px;
+    left: 385px;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.text_blog2 {
+    width: 670px;
+    height: 54px;
+    top: 1690px;
+    left: 385px;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+/*аккаунт*/
+
+.group_account {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    gap: 15px;
+    margin-left: 450px;
+    width: 500px;
+    height: 621px;
+    top: 251px;
+    left: 471px;
+}
+
+.heading_account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 185px;*/
+    height: 43px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 33px;
+    color: rgba(0, 0, 0, 1);
+}
+.Email {
+    width: 500px;
+    height:39px;
+}
+.Password {
+    width: 500px;
+    height: 39px;
+
+}
+.buttons {
+    display: flex;
+    justify-content:center;
+    
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    column-gap: 25px;
+}
+.button {
+    width: 500px;
+    height: 53px;
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.button:hover {
+
+}
+
+.footer_shoppe {
+    /* position: relative; */
+    width: 1248px;
+    height: 159px;
+    left: 0px;
+    top: 400px;
+    /* background: #cbc1c1;  */
+    background-color: rgb(232, 232, 234);
+}
+.footer_blog {
+    /* position: relative; */
+    width: 1248px;
+    height: 159px;
+    left: 0px;
+  
+    /* background: #cbc1c1;  */
+    background-color: rgb(232, 232, 234);
+}
+.menu_futter {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+
+    color: rgba(112, 112, 112, 1);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.block_comment {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    margin-top: 150px;
+}
+.comment-form {
+     width: 100%;
+     max-width: 600px;
+     margin: 0 auto; 
+    }
+.comment-form input, .comment-form textarea { 
+    width: 100%; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; }
+.comment-form button { 
+    background-color: gold; 
+    color: white; 
+    padding: 15px 20px; 
+    border: none; 
+    cursor: pointer; 
+    width: 100%; }
+.comment-form button:hover { 
+    opacity: 0.8; 
+}
+@media screen and (max-width: 600px) {
+    .comment-form input, .comment-form textarea { 
+        width: 100%; 
+    }
+  }
